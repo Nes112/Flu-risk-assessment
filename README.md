@@ -12,7 +12,9 @@ Finally, I combined these indicators into a risk index (see methodology below) f
 
 Using insights from the risk index visualization, I determined which states are at the highest risk per capita for flu hospitalization and make recommendations on medical staff allocation accordingly.
 
-** [View the analysis here on Tableau](https://public.tableau.com/app/profile/forrest.roth/viz/FluDeaths_16619865638940/Story1)**
+## Findings
+
+[View the analysis here on Tableau](https://public.tableau.com/app/profile/forrest.roth/viz/FluDeaths_16619865638940/Story1)
 
 ## Datasets used
 
