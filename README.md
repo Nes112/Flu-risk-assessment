@@ -48,20 +48,21 @@ Vermont: No influenza deaths data</sup>
 ## Risk Index methodology
 
 To come up with an index between 0 and 1 to measure risk in each state and each month, we averaged four values per capita for the years 2011-2014 (years when data was most complete):
-• Influenza deaths
-• Positive lab tests
-• Clinic visits for influenza-like-illnesses
-• Vulnerable population (% population over 65)
 
-I then assigned a weight to each value, based on how well we thought each value represented risk:
-• Deaths: 50%
-• Lab tests: 12.5%
-• ILI visits: 12.5%
-• Vulnerable population: 25%
+- Influenza deaths
+- Positive lab tests
+- Clinic visits for influenza-like-illnesses
+- Vulnerable population (% population over 65)
+
+I then assigned a weight to each value, based on how well I thought each value represented risk:
+- Deaths: 50%
+- Lab tests: 12.5%
+- ILI visits: 12.5%
+- Vulnerable population: 25%
 
 Some states did not have influenza death data, and some did not have lab test and/or ILI visits data.1 For these states, the weights were as follows:
-• No deaths data: Tests: 37.5%, Visits 37.5%, Population 25%
-• No lab tests or no visits data: Deaths: 60%, Tests/Visits 15%, Population 25%
-• No lab tests and no visits data: Deaths: 75%, Population 25%
+- No deaths data: Tests: 37.5%, Visits 37.5%, Population 25%
+- No lab tests or no visits data: Deaths: 60%, Tests/Visits 15%, Population 25%
+- No lab tests and no visits data: Deaths: 75%, Population 25%
 
 Deaths were always weighted more since the data seemed to be the most comprehensive and reliable. Population was weighted the same for all states to make sure to not skew the data for states that were missing data, since vulnerable populations stayed the same throughout the year.
